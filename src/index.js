@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <BrowserRouter basename="/teamoutfit">
-          <GoogleOAuthProvider clientId="424051864171-nssd8rqgukkpunne874lqup4akl232s6.apps.googleusercontent.com">
+          <GoogleOAuthProvider clientId="1073632720501-4f2iutfgconp6lgupcqjffruj9s7ooe5.apps.googleusercontent.com">
             <ThemeProvider>
               <App />
             </ThemeProvider>
